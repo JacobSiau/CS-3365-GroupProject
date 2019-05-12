@@ -1,0 +1,39 @@
+<!-- <div class="container">
+  <form>
+    <div>
+      <mat-form-field>
+        <input matInput placeholder="Username" />
+      </mat-form-field>
+    </div>
+
+    <div>
+      <mat-form-field>
+        <input matInput placeholder="Password" />
+      </mat-form-field>
+    </div>
+    <button type="button" class="btn btn-primary">
+        Login
+      </button>
+  </form>
+</div> -->
+<div fxLayout="column" fxLayoutAlign="center center">
+  
+      <form>
+          <div>
+            <mat-form-field>
+              <input matInput placeholder="Username" />
+            </mat-form-field>
+          </div>
+      
+          <div>
+            <mat-form-field>
+              <input matInput placeholder="Password" />
+            </mat-form-field>
+          </div>
+          <button type="button" class="btn btn-primary" [routerLink]="['/home']">
+              Login
+            </button>
+        </form>
+ 
+    
+  </div>

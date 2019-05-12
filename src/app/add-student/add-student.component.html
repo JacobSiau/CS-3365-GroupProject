@@ -1,0 +1,51 @@
+<div fxLayout="row" fxLayoutAlign="center center">
+  <form>
+    <mat-form-field>
+      <input [(ngModel)]="RNumber" required matInput name="RNumber" placeholder="R#" />
+    </mat-form-field>
+
+    <mat-form-field>
+      <input [(ngModel)]="firstName" required matInput name="firstName" placeholder="First Name" />
+    </mat-form-field>
+
+    <mat-form-field>
+      <input [(ngModel)]="lastName" required matInput name="lastName" placeholder="Last Name" />
+    </mat-form-field>
+
+    <mat-form-field>
+      <input [(ngModel)]="gradDate" required matInput name="gradDate" placeholder="Graduation Date" />
+    </mat-form-field>
+
+    <mat-form-field>
+      <input [(ngModel)]="department" required matInput name="department" placeholder="Department" />
+    </mat-form-field>
+
+    <mat-form-field>
+      <input [(ngModel)]="major" required matInput name="major" placeholder="Major" />
+    </mat-form-field>
+
+    <mat-form-field>
+      <input [(ngModel)]="minor" required matInput name="minor" placeholder="Minor" />
+    </mat-form-field>
+
+    <mat-form-field>
+      <input [(ngModel)]="username" required matInput name="username" placeholder="Username" />
+    </mat-form-field>
+
+    <mat-form-field>
+      <input [(ngModel)]="email" required matInput name="email" type="email" placeholder="Email" />
+    </mat-form-field>
+
+    <mat-form-field>
+      <input [(ngModel)]="password" required matInput name="password" type="password" placeholder="Password" />
+    </mat-form-field>
+
+    <mat-form-field>
+        <input required matInput type="password" placeholder="Confirm Password" />
+      </mat-form-field>
+
+      <button (click)="addStudent()" type="button" class="btn btn-primary">
+          Submit
+        </button>
+  </form>
+</div>
